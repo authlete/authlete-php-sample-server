@@ -1,0 +1,45 @@
+.font {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;  /* For Chrome on Mac */
+  font-weight: 200;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  text-shadow: none;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+div.page_title {
+  background: #333;
+  color: white;
+  padding: 0.5em;
+  margin: 0;
+  font-size: 200%;
+}
+
+div.content {
+  padding: 20px;
+}
+
+div.indent {
+  margin-left: 1em
+}
+
+button {
+  padding: 0.5em;
+  margin-right: 1em;
+  font-size: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead tr {
+  background: #CCC;
+}
