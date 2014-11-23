@@ -10,7 +10,7 @@ function do_token($client_id, $client_secret)
 {
     // Request parameters.
     $parameters = pack_parameters();
-error_log("# parameters = {$parameters}", 0);
+
     // Call Authlete's /auth/token API.
     $response = call_token_api($parameters, $client_id, $client_secret);
 

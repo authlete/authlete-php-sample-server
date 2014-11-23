@@ -68,7 +68,7 @@ function extract_access_token()
 
     if ($header != null && preg_match('/^Bearer[ ]+(.+)/i', $header, $captured))
     {
-        return base64_decode($captured);
+        return $captured;
     }
 
     if ($_SERVER['REQUEST_METHOD'] == 'GET')
