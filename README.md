@@ -1,5 +1,6 @@
 
 > NOTE: This repo has been archived and is no longer maintained or supported. For current active projects visit [authlete.com/developers](https://www.authlete.com/developers).
+
 authlete-php-sample-server
 ==========================
 
